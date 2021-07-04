@@ -84,6 +84,12 @@ I have used Seaborn and Matplot lib for visualizing each feature and also verifi
 
 The data set has violation data from 2012 - 2016.
 
+**Violation Type**
+
+![Violation Type](https://raw.githubusercontent.com/chaitanya-vanapamala/eda_traffic_violation_usa/main/data/graphs/violation_type.png)
+
+> Around 90% of violations are Citations and Warning, rest are ESERO & SERO.
+
 **Violation Per Month**:
 
 ![Monthly Violations](https://raw.githubusercontent.com/chaitanya-vanapamala/eda_traffic_violation_usa/main/data/graphs/month_violations.png)
@@ -138,4 +144,35 @@ As there are allot of unique values in Vehicle Make Feature, I have used Word Cl
 
 ![Vehicle State](https://raw.githubusercontent.com/chaitanya-vanapamala/eda_traffic_violation_usa/main/data/graphs/vahicle_state.png)
 
+> Over 85% Violations Vehicles are registered in Maryland only, because the data set is taken from Maryland MCP agency.
+
+## Correlation
+
+We have 80% of variables are Categorical/Text type. In order to find correlation I have converted them into on-hot encoded fields.
+
+By using the pearsons correlation on pandas data frame, and plotting them using a heatmap in seaborn gave following result.
+
+![Correlation](https://raw.githubusercontent.com/chaitanya-vanapamala/eda_traffic_violation_usa/main/data/graphs/correlation.png)
+
+> We can see there is almost no correlation between the variables. There is only a small positive correlation between **Contributed to Accedent to Personal Injury and Property Damage**.
+
+# Results
+
+After performing the various visulazation techniques the following conclusions/findings has been done.
+
++ Data set is having traffic violations from 2012 to 2016.
++ Data set is from MCP Agency from Maryland.
++ Highest Number of Violations happened in the mid night and very less happened in the early mornings.
++ Most of the violations are related to speed and high way related.
++ Most of the columns has sparse data.
++ Citation and Warning Violation types are more than 95%.
++ There is hardly no correlation between the columns. Only Contributed to Accident is correlated to Personal Injury & Property Damage.
+
+<br/>
+
+---
+
+<br/>
+
+**The python notebook contains all the detailed visualisation of each and every column and also the bivariate analysis**
 
