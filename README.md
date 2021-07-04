@@ -10,7 +10,7 @@ data.shape
 ```
 The dataset is having 35 columns and over 1 million observations.
 
-The Following table summarises the data that eah column stores.
+The Following table summarises the data that each column stores.
 
 | # | Column Name | Description |
 | ---- | ----------- | ----------- |
