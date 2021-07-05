@@ -1,5 +1,7 @@
 # Exploratory Data Analysis Of Traffic Violations in USA(Maryland)
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaitanya-vanapamala/eda_traffic_violation_usa/blob/main/EDA%20-%20Traffic%20Violation%20in%20USA.ipynb)
+
 In this project, I have done analysis to get the insignts from [Traffic Violations in USA](https://www.kaggle.com/felix4guti/traffic-violations-in-usa) using Pandas and Visualisation libraries like Matplotlib & Seaborn.
 
 ## Dataset Info
